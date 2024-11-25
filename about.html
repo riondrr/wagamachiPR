@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>わがまちPR - 概要</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="このページは千葉県の概要を紹介するページです。">
+<meta name="keywords" content="千葉県,チーバくん">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="bgimg-about" class="bgimg">背景イメージ</div>
+
+<div id="main">
+
+<section>
+
+<h2>About<span>概要</span></h2>
+
+<font size="3"><h3>千葉県の紹介</h3></font>
+<p><font size="2">
+千葉県は日本の南西に位置する都道府県です。<br>
+千葉県の半分は房総半島となっており、東側と南側に<font color="#1414ff">太平洋</font>、北側に<font color="#1414ff">利根川</font>、西側に<font color="#1414ff">江戸川</font>が流れており、水に囲まれた<font color="#ff0f000">孤高</font>の県です。
+</font></p>
+
+</section>
+
+</div>
+<!--/#main-->
+
+
+
+<div id="sub">
+
+<h1 class="logo"><a href="j1709.html"><img src="images/chibalogo.png" alt="ロゴ"></a></h1>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li class="menu1"><a href="j1709.html">Home<span>ホーム</span></a></li>
+<li class="menu2 current"><a href="about.html">About<span>概要</span></a></li>
+<li class="menu3"><a href="shop.html">Shopping<span>ショッピング</span></a></li>
+<li class="menu4"><a href="sightseeing.html">Sightseeing<span>観光</span></a></li>
+<li class="menu5"><a href="access.html">Access<span>アクセス</span></a></li>
+</ul>
+</nav>
+
+</div>
+<!--/#sub-->
+
+<!--小さな端末用（800px以下端末）環境でのみ表示させるブロック-->
+
+<div id="sh-sub">
+
+<h1 class="logo"><a href="j1709.html"><img src="images/chibalogo.png" alt="ロゴ"></a></h1>
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li class="menu1><"a href="j1709.html">Home<span>ホーム</span></a></li>
+<li class="menu2 current"><a href="about.html">About<span>概要</span></a></li>
+<li class="menu3"><a href="shop.html">Shopping<span>ショッピング</span></a></li>
+<li class="menu4"><a href="sightseeing.html">Sightseeing<span>観光</span></a></li>
+<li class="menu5"><a href="access.html">Access<span>アクセス</span></a></li>
+</ul>
+</nav>
+
+</div>
+<!--/#sh-sub-->
+
+<footer>
+<small>Copyright&copy; <a href="j1709.html">SAMPLE SHOP</a> All Rights Reserved.</small>
+<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>
