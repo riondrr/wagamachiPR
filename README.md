@@ -1,1 +1,1 @@
-# wagamachiPR
+# わがまちPR
